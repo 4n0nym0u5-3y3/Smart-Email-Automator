@@ -1,0 +1,35 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "email": "your_email@gmail.com",
+    "password": "your_password",
+    "subject": "Scheduled Email",
+    "body": "This is an automated email sent by Smart Email Automator.",
+    "images": [
+        "path/to/image1.jpg",
+        "path/to/image2.png"
+    ],
+    "attachments": [
+        "path/to/file1.pdf",
+        "path/to/file2.docx"
+    ],
+    "recipients": [
+        "recipient1@example.com",
+        "recipient2@example.com"
+    ],
+    "schedule": [
+        {
+            "type": "interval",
+            "interval": 10
+        },
+        {
+            "type": "daily",
+            "time": "08:00"
+        },
+        {
+            "type": "weekly",
+            "day": "Friday",
+            "time": "14:00"
+        }
+    ]
+}
